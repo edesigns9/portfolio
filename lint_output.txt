@@ -1,0 +1,39 @@
+
+> e-portfolio@0.1.0 lint
+> eslint
+
+
+C:\Users\hp\Desktop\e-portfolio\src\components\footer.tsx
+  5:10  warning  'motion' is defined but never used   @typescript-eslint/no-unused-vars
+  6:48  warning  'Twitter' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\hp\Desktop\e-portfolio\src\components\process-summary.tsx
+  4:48  warning  'Calendar' is defined but never used  @typescript-eslint/no-unused-vars
+  4:74  warning  'User' is defined but never used      @typescript-eslint/no-unused-vars
+
+C:\Users\hp\Desktop\e-portfolio\src\components\process.tsx
+  3:29  warning  'useTransform' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\hp\Desktop\e-portfolio\src\components\testimonials.tsx
+  3:10  warning  'motion' is defined but never used  @typescript-eslint/no-unused-vars
+  4:10  warning  'Quote' is defined but never used   @typescript-eslint/no-unused-vars
+
+C:\Users\hp\Desktop\e-portfolio\src\components\ui\clean-testimonial.tsx
+  168:25  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\hp\Desktop\e-portfolio\src\components\ui\magnetic.tsx
+  3:25  warning  'useState' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\hp\Desktop\e-portfolio\src\components\ui\radial-orbital-timeline.tsx
+   5:10  warning  'Button' is defined but never used                    @typescript-eslint/no-unused-vars
+  14:11  error    Unexpected any. Specify a different type              @typescript-eslint/no-explicit-any
+  34:26  warning  'setCenterOffset' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\hp\Desktop\e-portfolio\src\components\ui\scroll-to-top.tsx
+  3:21  warning  'useAnimation' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\hp\Desktop\e-portfolio\src\components\ui\typewriter.tsx
+  98:8  warning  React Hook useEffect has a missing dependency: 'initialDelay'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Γ£û 14 problems (1 error, 13 warnings)
+

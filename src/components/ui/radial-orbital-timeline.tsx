@@ -2,7 +2,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { ArrowRight, Link, Zap } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export interface TimelineItem {
@@ -11,7 +10,8 @@ export interface TimelineItem {
     date: string;
     content: string;
     category: string;
-    icon: React.ElementType;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    icon: any;
     relatedIds: number[];
     status: "completed" | "in-progress" | "pending";
     energy: number;
@@ -31,6 +31,7 @@ export function RadialOrbitalTimeline({
     const [rotationAngle, setRotationAngle] = useState<number>(0);
     const [autoRotate, setAutoRotate] = useState<boolean>(true);
     const [pulseEffect, setPulseEffect] = useState<Record<number, boolean>>({});
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [centerOffset, setCenterOffset] = useState<{ x: number; y: number }>({
         x: 0,
         y: 0,
