@@ -7,23 +7,23 @@ import { motion, useMotionValue, useSpring, AnimatePresence } from "framer-motio
 
 const testimonials = [
     {
-        quote: "The attention to detail is unmatched. Every interaction feels intentional.",
+        quote: "Ephraim balanced content, performance, and usability really well. The platform feels engaging without being overwhelming, which is exactly what we wanted for our audience.",
         author: "Elvis C.",
-        role: "Head of Tech",
-        company: "KongaPay",
+        role: "Editor-in-Chief",
+        company: "Game360",
         avatar: "/memojis/elvis.png",
     },
     {
-        quote: "Finally, someone who understands that simplicity is the ultimate sophistication.",
+        quote: "Ephraim didn’t just design screens, he questioned our assumptions and helped us simplify the shopping experience. The final flow feels intentional, clean, and much easier for users to navigate.",
         author: "Matthew A.",
         role: "Product Lead",
         company: "Obana",
         avatar: "/memojis/matthew.png",
     },
     {
-        quote: "This work redefined our entire approach to digital experiences.",
+        quote: "What stood out was Ephraim’s attention to detail. He understood that our products needed space to breathe, and the design reflects the quality of the furniture without overcomplicating things.",
         author: "Sasha T.",
-        role: "Business Owner",
+        role: "Founder",
         company: "Bamboo",
         avatar: "/memojis/sasha.png",
     },

@@ -7,24 +7,24 @@ import { motion, AnimatePresence } from "framer-motion";
 const allProjects = [
     {
         title: "Shop Obana",
-        description: "A premium e-commerce ecosystem for African fashion, beauty, and lifestyle. Specialized in bulk sourcing and seamless global logistics.",
-        tags: ["Next.js", "Tailwind CSS", "E-commerce"],
+        description: "Designed a clean shopping flow focused on product discovery, trust, and fast checkout, balancing aesthetics with real buying behavior.",
+        tags: ["Figma", "UI/UX", "E-commerce"],
         imageSrc: "/projects/shop-obana.png",
         link: "https://shop.obana.africa/",
         category: "E-commerce",
     },
     {
         title: "Bamboo Furniture",
-        description: "A minimal and eco-conscious furniture store that brings nature into the home. Features nature-inspired textures and sustainable bamboo craftsmanship.",
-        tags: ["E-commerce", "Minimalism", "Sustainable"],
+        description: "Created a minimal product experience that highlights craftsmanship, materials, and scale while keeping navigation simple and conversion-friendly.",
+        tags: ["Figma", "UI/UX", "E-commerce"],
         imageSrc: "/projects/bamboo-furniture.png",
         link: "https://www.figma.com/design/DDhFbThz4rgIwmBnA756WR/Portfolio-Website-Designs?node-id=65-242&t=ZFyNHVstCRx0N0Lh-1",
         category: "E-commerce",
     },
     {
         title: "Icarus Flight Agency",
-        description: "A comprehensive travel and logistics platform providing stress-free vacation services, tour packing, and exceptional customer support.",
-        tags: ["Travel", "Logistics", "Web Design"],
+        description: "Built and structured a service-driven website that simplifies flight enquiries, builds credibility, and guides users toward fast contact.",
+        tags: ["Lovable", "UI/UX", "Travel"],
         imageSrc: "/projects/icarus-flight.png",
         link: "https://icarusflight.agency/",
         category: "Travel",
@@ -39,7 +39,7 @@ const allProjects = [
     },
     {
         title: "Kọbiri",
-        description: "A comprehensive recipe discovery platform featuring authentic African cuisine with user-friendly search, curated collections, and personalized cookbooks.",
+        description: "Built a responsive web app that makes finding, saving, and exploring recipes intuitive through clear structure and thoughtful UX decisions.",
         tags: ["React", "TypeScript", "Vercel"],
         imageSrc: "/projects/kobiri.png",
         link: "https://kobiri-cookbook.vercel.app/",
@@ -48,18 +48,18 @@ const allProjects = [
     {
         title: "KongaPay Redesign",
         description: "A comprehensive redesign of the KongaPay landing page, focusing on seamless digital payments, enhanced trust through brand associations, and a vibrant user interface for the Nigerian market.",
-        tags: ["Fintech", "UI Redesign", "Behance"],
+        tags: ["Fintech", "Figma", "Behance"],
         imageSrc: "/projects/kongapay.png",
         link: "https://www.behance.net/gallery/195438701/KongaPay-Customer-Landing-Page-Redesign",
         category: "Fintech",
     },
     {
         title: "Game360",
-        description: "A high-stakes mobile esports platform where players compete in classics like Chess and Pool for real cash prizes. Features a high-energy UI with real-time matchmaking and secure instant payouts.",
-        tags: ["Mobile Esports", "Gaming UI", "Fintech"],
+        description: "Designed and built a high-stakes mobile esports platform where players compete in classics like Chess and Pool for real cash prizes. Features a high-energy UI with real-time matchmaking and secure instant payouts.",
+        tags: ["Mobile Esports", "Gaming UI", "Figma"],
         imageSrc: "/projects/game360.png",
         link: "https://www.figma.com/design/DDhFbThz4rgIwmBnA756WR/Portfolio-Website-Designs?node-id=56-1088&t=ZFyNHVstCRx0N0Lh-1",
-        category: "Fintech",
+        category: "Mobile Esports",
     },
 ];
 
