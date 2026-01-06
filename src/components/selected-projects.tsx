@@ -8,22 +8,22 @@ import { Magnetic } from "./ui/magnetic";
 const projects = [
     {
         title: "Shop Obana",
-        description: "A premium e-commerce ecosystem for African fashion, beauty, and lifestyle. Specialized in bulk sourcing and seamless global logistics.",
-        tags: ["Next.js", "Tailwind CSS", "E-commerce"],
+        description: "Designed a clean shopping flow focused on product discovery, trust, and fast checkout, balancing aesthetics with real buying behavior.",
+        tags: ["Figma", "UI/UX", "E-commerce"],
         imageSrc: "/projects/shop-obana.png",
         link: "https://shop.obana.africa/",
     },
     {
         title: "Bamboo Furniture",
-        description: "A minimal and eco-conscious furniture store that brings nature into the home. Features nature-inspired textures and sustainable bamboo craftsmanship.",
-        tags: ["E-commerce", "Minimalism", "Sustainable"],
+        description: "Created a minimal product experience that highlights craftsmanship, materials, and scale while keeping navigation simple and conversion-friendly.",
+        tags: ["Figma", "UI/UX", "E-commerce"],
         imageSrc: "/projects/bamboo-furniture.png",
         link: "https://www.figma.com/design/DDhFbThz4rgIwmBnA756WR/Portfolio-Website-Designs?node-id=65-242&t=ZFyNHVstCRx0N0Lh-1",
     },
     {
         title: "Icarus Flight Agency",
-        description: "A comprehensive travel and logistics platform providing stress-free vacation services, tour packing, and exceptional customer support.",
-        tags: ["Travel", "Logistics", "Web Design"],
+        description: "Built and structured a service-driven website that simplifies flight enquiries, builds credibility, and guides users toward fast contact.",
+        tags: ["Lovable", "UI/UX", "Travel"],
         imageSrc: "/projects/icarus-flight.png",
         link: "https://icarusflight.agency/",
     },
