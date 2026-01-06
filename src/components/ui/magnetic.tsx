@@ -1,9 +1,9 @@
 "use client";
 
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import { motion, useSpring, useMotionValue } from "framer-motion";
 
-export function Magnetic({ children }: { children: React.ReactNode }) {
+export function Magnetic({ children, disabled = false }: { children: React.ReactNode, disabled?: boolean }) {
     const ref = useRef<HTMLDivElement>(null);
     const x = useMotionValue(0);
     const y = useMotionValue(0);
@@ -13,6 +13,7 @@ export function Magnetic({ children }: { children: React.ReactNode }) {
     const springY = useSpring(y, springConfig);
 
     const handleMouseMove = (e: React.MouseEvent) => {
+        if (disabled) return;
         const { clientX, clientY } = e;
         const { width, height, left, top } = ref.current!.getBoundingClientRect();
         const centerX = left + width / 2;
@@ -25,6 +26,7 @@ export function Magnetic({ children }: { children: React.ReactNode }) {
     };
 
     const handleMouseLeave = () => {
+        if (disabled) return;
         x.set(0);
         y.set(0);
     };
